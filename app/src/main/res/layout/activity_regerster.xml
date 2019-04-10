@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegersterActivity">
+    tools:context=".RegisterActivity">
 
     <EditText
         android:id="@+id/etemail"
@@ -31,7 +31,7 @@
         android:ems="10"
         android:hint="Password"
         android:padding="8dp"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="@+id/etemail"
         app:layout_constraintStart_toStartOf="@+id/etemail"
         app:layout_constraintTop_toBottomOf="@+id/etemail" />
@@ -54,6 +54,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:text="Already have an Account"
+        android:onClick="LoginPage"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/editText2"
